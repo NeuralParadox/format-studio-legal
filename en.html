@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help and Privacy Policy | Format Studio</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    line-height: 1.8; max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; color: #1c1c1e; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #1c1c1e; } a { color: #6ab0ff; } th { background: #2c2c2e !important; } td, th { border-color: #444 !important; } }
+  h1 { font-size: 1.5rem; margin-bottom: .2em; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: .3em; }
+  h3 { font-size: 1rem; margin-top: 1.6em; }
+  .lang { font-size: .9rem; margin: 4px 0 24px; }
+  .meta { color: #888; font-size: .85rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f6; }
+  strong { font-weight: 700; }
+  code { font-size: .92em; background: rgba(127,127,127,.15); padding: .1em .35em; border-radius: 4px; }
+</style>
+</head>
+<body>
+<p class="lang"><a href="./index.html">日本語</a> ｜ <strong>English</strong></p>
+
+<h1>Format Studio Help &amp; Privacy Policy</h1>
+<p class="meta">Last updated: 2026-09-05 / Applies to: <strong>Format Studio</strong>, the Mac App Store version (the "App")</p>
+
+<h2>1. About Format Studio</h2>
+<p>Format Studio is a lightweight editor for quickly checking and lightly editing the configuration files, documents, and scripts you often open while collaborating with an AI agent. It is not a replacement for an IDE — it's for the moments when opening an IDE would be overkill. It requires macOS 13 or later.</p>
+<table>
+<tr><th>Tier</th><th>File types</th><th>What it provides</th></tr>
+<tr><td>First-class</td><td>JSON / YAML / Markdown</td><td>Syntax highlighting, formatting, linting, tree editing, preview, and outline</td></tr>
+<tr><td>Scripts</td><td><code>.sh .bash .zsh</code> / <code>.bat .cmd</code> / <code>.html .htm</code></td><td>Highlighting, icons, filtering, and status display only (HTML files can be opened in a browser)</td></tr>
+<tr><td>View only</td><td>Images (png / jpg / gif / webp / svg / avif)</td><td>Display only</td></tr>
+</table>
+
+<h2>2. Basic Usage</h2>
+<p>Opening a folder shows a directory tree in the sidebar. Click a file to open it in a tab, where you can edit, format, and preview it. The shortcuts below cover the most common actions.</p>
+<table>
+<tr><th>Shortcut</th><th>Action</th></tr>
+<tr><td><code>⌘O</code></td><td>Open a folder</td></tr>
+<tr><td><code>⌘S</code></td><td>Save</td></tr>
+<tr><td><code>⌘W</code></td><td>Close the tab</td></tr>
+<tr><td><code>⌘R</code></td><td>Reload</td></tr>
+<tr><td><code>⌘F</code></td><td>Find (within the open file)</td></tr>
+<tr><td><code>⌥⌘G</code></td><td>Go to line</td></tr>
+<tr><td><code>⌥⇧F</code></td><td>Format the document</td></tr>
+<tr><td><code>⇧⌘V</code></td><td>Split view (editor + viewer)</td></tr>
+<tr><td><code>⇧⌘E</code></td><td>Viewer only</td></tr>
+<tr><td><code>⇧⌘O</code></td><td>Outline</td></tr>
+<tr><td><code>⇧⌘F</code></td><td>Filter the sidebar</td></tr>
+<tr><td><code>⌘=</code> / <code>⌘-</code> / <code>⌘0</code></td><td>Increase / decrease / reset font size</td></tr>
+<tr><td><code>⌘1</code>–<code>⌘9</code></td><td>Switch tabs</td></tr>
+<tr><td><code>⌘M</code></td><td>Minimize the window</td></tr>
+</table>
+<p>The View menu also lets you switch between light, dark, and system theme, toggle line wrapping, and toggle hidden files. Vim mode can be enabled from the Edit menu. If a file you have open changes outside the App, you'll be asked to confirm before reloading it, and closing a tab or quitting the App with unsaved changes prompts a confirmation dialog.</p>
+
+<h2>3. Contact / Support</h2>
+<p>For questions about using the App or to report a problem, please contact:</p>
+<ul>
+<li>Developer: NeuralParadox (Kazuki Watanabe)</li>
+<li>Contact: <a href="mailto:neuralparadox.app@gmail.com">neuralparadox.app@gmail.com</a></li>
+</ul>
+
+<h2 id="privacy">4. Privacy Policy</h2>
+
+<h3>Introduction</h3>
+<p>The App is an editor that displays and edits, in place, the contents of folders and files that you explicitly choose via "Open Folder," drag and drop, or Finder. To respect your privacy to the fullest extent, the App is designed so that <strong>it does not collect or transmit your personal information</strong>. The App has no server and performs no network communication of its own (the sole exception is the "open in browser" feature described in the section on third parties and tracking below).</p>
+<p>This policy explains what information the App handles and how it is protected.</p>
+
+<h3>Information We Collect or Transmit</h3>
+<p><strong>The App does not collect or transmit any personal information.</strong></p>
+<p>The App has no server, and no information about you is sent to the developer or any third party. There is no account registration or login of any kind. The App contains no advertising, analytics, or tracking of any kind.</p>
+
+<h3>File Access (App Sandbox)</h3>
+<p>The App runs inside the macOS App Sandbox and can only access folders and files you explicitly choose via "Open Folder," drag and drop, or Finder. Access to anything else on the file system is restricted by the macOS sandboxing mechanism.</p>
+
+<h3>Information Stored on Your Device</h3>
+<p>The App stores the following information <strong>only on your device (inside the App's sandbox)</strong>, solely to provide its features. It is never sent outside the App. The App does not retain the contents of your files — they are always saved back to the original file location you chose.</p>
+<table>
+<tr><th>Category</th><th>Details</th><th>Purpose</th></tr>
+<tr><td>Preferences</td><td>Theme (light/dark/system), font size, line wrapping, hidden-file visibility, Vim mode, outline visibility, sidebar width, and window position and size</td><td>Customizing the App's behavior and appearance</td></tr>
+<tr><td>Favorites</td><td>Folders you have added to favorites</td><td>Quick access to frequently used folders</td></tr>
+<tr><td>Last session</td><td>The folder and list of open tabs (file paths) from your last session</td><td>Resuming your work on next launch</td></tr>
+<tr><td>Folder access reference</td><td>A reference (a macOS security-scoped bookmark) that lets the App reopen a folder you previously chose</td><td>Continuing access without re-selecting the folder</td></tr>
+</table>
+<p>Deleting (uninstalling) the App erases all of this information. If you have enabled a macOS backup feature such as Time Machine or iCloud, this information may be included in your backup; this is standard OS behavior, and the developer has no access to its contents.</p>
+
+<h3>Third Parties and Tracking</h3>
+<p>The App performs no network communication. The sole exception is the "open in browser" feature, which you trigger explicitly and which simply hands an HTML file to your Mac's default browser — the App itself does not initiate any communication. The App contains no advertising, analytics, or tracking, and your information is never shared with or sold to third parties.</p>
+
+<h3>Reviewing and Deleting Your Data</h3>
+<p>The preferences, favorites, last session, and folder access references stored on your device are incidental to running the App and are <strong>permanently erased when you delete (uninstall) the App</strong>. Files you have opened remain exactly where you originally chose them.</p>
+
+<h3>Changes to This Policy</h3>
+<p>This policy may be revised as features or operating practices change. Significant changes will be communicated through App updates.</p>
+
+<h3>Contact</h3>
+<p>For questions about this policy:</p>
+<ul>
+<li>Developer: NeuralParadox (Kazuki Watanabe)</li>
+<li>Contact: <a href="mailto:neuralparadox.app@gmail.com">neuralparadox.app@gmail.com</a></li>
+</ul>
+
+<p class="lang"><a href="./index.html">日本語版はこちら</a></p>
+</body>
+</html>

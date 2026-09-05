@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ヘルプとプライバシーポリシー｜Format Studio</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.8; max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; color: #1c1c1e; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #1c1c1e; } a { color: #6ab0ff; } th { background: #2c2c2e !important; } td, th { border-color: #444 !important; } }
+  h1 { font-size: 1.5rem; margin-bottom: .2em; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: .3em; }
+  h3 { font-size: 1rem; margin-top: 1.6em; }
+  .lang { font-size: .9rem; margin: 4px 0 24px; }
+  .meta { color: #888; font-size: .85rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+  th, td { border: 1px solid #ccc; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f4f6; }
+  strong { font-weight: 700; }
+  code { font-size: .92em; background: rgba(127,127,127,.15); padding: .1em .35em; border-radius: 4px; }
+</style>
+</head>
+<body>
+<p class="lang"><strong>日本語</strong> ｜ <a href="./en.html">English</a></p>
+
+<h1>Format Studio ヘルプ・プライバシーポリシー</h1>
+<p class="meta">最終更新: 2026-09-05 ／ 対象アプリ: <strong>Format Studio</strong>（Mac App Store 版・以下「本アプリ」）</p>
+
+<h2>1. Format Studio とは</h2>
+<p>Format Studio は、AI エージェントとの共同作業で頻繁に開く「設定・ドキュメント・スクリプト」を素早く確認・軽く直すための軽量エディターです。IDE の代替ではなく、IDE を立ち上げるまでもない場面のために作られています。動作環境は macOS 13 以降です。</p>
+<table>
+<tr><th>層</th><th>対象</th><th>提供するもの</th></tr>
+<tr><td>第一級</td><td>JSON / YAML / Markdown</td><td>ハイライト・整形・構文チェック・ツリー編集・プレビュー・アウトライン</td></tr>
+<tr><td>スクリプト</td><td><code>.sh .bash .zsh</code> / <code>.bat .cmd</code> / <code>.html .htm</code></td><td>ハイライト・アイコン・フィルタ・ステータス表示のみ（HTML は「ブラウザで開く」あり）</td></tr>
+<tr><td>閲覧のみ</td><td>画像（png / jpg / gif / webp / svg / avif）</td><td>表示のみ</td></tr>
+</table>
+
+<h2>2. 基本の使い方</h2>
+<p>フォルダを開くと、サイドバーにディレクトリツリーが表示されます。ファイルをクリックしてタブで開き、編集・整形・プレビューができます。よく使う操作は以下のショートカットから行えます。</p>
+<table>
+<tr><th>ショートカット</th><th>動作</th></tr>
+<tr><td><code>⌘O</code></td><td>フォルダを開く</td></tr>
+<tr><td><code>⌘S</code></td><td>保存</td></tr>
+<tr><td><code>⌘W</code></td><td>タブを閉じる</td></tr>
+<tr><td><code>⌘R</code></td><td>再読み込み</td></tr>
+<tr><td><code>⌘F</code></td><td>検索（開いているファイル内）</td></tr>
+<tr><td><code>⌥⌘G</code></td><td>行へ移動</td></tr>
+<tr><td><code>⌥⇧F</code></td><td>ドキュメントを整形</td></tr>
+<tr><td><code>⇧⌘V</code></td><td>分割表示（エディタ＋ビューア）</td></tr>
+<tr><td><code>⇧⌘E</code></td><td>ビューアのみ表示</td></tr>
+<tr><td><code>⇧⌘O</code></td><td>アウトライン</td></tr>
+<tr><td><code>⇧⌘F</code></td><td>サイドバーで絞り込み</td></tr>
+<tr><td><code>⌘=</code> / <code>⌘-</code> / <code>⌘0</code></td><td>文字サイズの拡大／縮小／リセット</td></tr>
+<tr><td><code>⌘1</code>〜<code>⌘9</code></td><td>タブの切り替え</td></tr>
+<tr><td><code>⌘M</code></td><td>ウインドウをしまう</td></tr>
+</table>
+<p>このほか、表示メニューからライト／ダーク／システムのテーマ切替、行の折り返し、隠しファイルの表示を切り替えられます。Vim モードは編集メニューから有効にできます。外部で変更されたファイルを開いている場合は再読み込みの確認が表示され、未保存のタブがある状態でタブを閉じる・アプリを終了する際には確認ダイアログが表示されます。</p>
+
+<h2>3. お問い合わせ</h2>
+<p>本アプリの使い方やご不明点、不具合のご報告は、以下の連絡先までお願いいたします。</p>
+<ul>
+<li>開発者: NeuralParadox（Kazuki Watanabe）</li>
+<li>連絡先: <a href="mailto:neuralparadox.app@gmail.com">neuralparadox.app@gmail.com</a></li>
+</ul>
+
+<h2 id="privacy">4. プライバシーポリシー</h2>
+
+<h3>はじめに</h3>
+<p>本アプリは、利用者が「フォルダを開く」やドラッグ&amp;ドロップ・Finder で選んだフォルダやファイルの内容を、その場で表示・編集するためのエディターです。本アプリは、利用者のプライバシーを最大限に尊重するため、<strong>利用者の個人情報を収集・送信しない</strong>設計としています。本アプリはサーバを持たず、ネットワーク通信そのものを行いません（唯一の例外は「外部送信・第三者提供・トラッキング」の項で説明する「ブラウザで開く」機能です）。</p>
+<p>本ポリシーは、本アプリが取り扱う情報と、その保護のための方針を説明します。</p>
+
+<h3>収集・送信する情報</h3>
+<p><strong>本アプリは、利用者の個人情報を収集・送信しません。</strong></p>
+<p>本アプリはサーバを持たず、利用者に関するいかなる情報も、開発者・第三者を含む外部へ送信しません。アカウント登録・ログインは一切行いません。広告配信・アクセス解析（アナリティクス）・トラッキングの仕組みも組み込んでいません。</p>
+
+<h3>ファイルへのアクセス（App Sandbox）</h3>
+<p>本アプリは macOS の App Sandbox 内で動作し、利用者が「フォルダを開く」やドラッグ&amp;ドロップ・Finder で明示的に選んだフォルダ・ファイルにのみアクセスします。それ以外のファイルシステムへのアクセスは、macOS のサンドボックス機構によって制限されています。</p>
+
+<h3>端末内に保存される情報</h3>
+<p>本アプリは、機能の提供に必要な以下の情報を、<strong>利用者の端末内（アプリのサンドボックス領域）にのみ</strong>保存します。これらはアプリの外部へ送信されることはありません。ファイル本文そのものはアプリが保持せず、保存先は常に利用者が選んだ元のファイルです。</p>
+<table>
+<tr><th>区分</th><th>具体的な内容</th><th>目的</th></tr>
+<tr><td>設定値</td><td>テーマ（ライト／ダーク／システム）、文字サイズ、行の折り返し、隠しファイル表示、Vim モード、アウトライン表示、サイドバー幅、ウインドウの位置とサイズ</td><td>アプリの動作・表示のカスタマイズ</td></tr>
+<tr><td>お気に入り</td><td>お気に入りに登録したフォルダ</td><td>よく使うフォルダへの素早いアクセス</td></tr>
+<tr><td>前回の状態</td><td>前回開いていたフォルダと開いていたタブの一覧（ファイルのパス）</td><td>次回起動時の作業再開</td></tr>
+<tr><td>フォルダの参照情報</td><td>選んだフォルダを次回も開けるようにするための参照情報（macOS の security-scoped bookmark）</td><td>再度のフォルダ選択なしでのアクセス継続</td></tr>
+</table>
+<p>アプリを削除（アンインストール）すると、これらの情報はすべて消去されます。なお、macOS の Time Machine や iCloud 等のバックアップ機能を利用者が有効にしている場合、これらの情報がバックアップに含まれることがあります。これは OS の仕組みによるもので、開発者がその内容にアクセスすることはありません。</p>
+
+<h3>外部送信・第三者提供・トラッキング</h3>
+<p>本アプリは、ネットワーク通信を行いません。唯一の例外は、利用者が明示的に選択した場合の「ブラウザで開く」機能で、HTML ファイルを macOS の既定アプリ（ブラウザ）に渡すだけであり、本アプリ自身が通信を発生させるものではありません。本アプリに広告配信・アクセス解析・トラッキングの仕組みは組み込まれておらず、情報を第三者へ提供・販売することもありません。</p>
+
+<h3>データの確認・削除</h3>
+<p>端末内に保存された設定値・お気に入り・前回の状態・フォルダの参照情報は、いずれもアプリの動作に付随するものであり、<strong>アプリを削除（アンインストール）することで完全に消去</strong>されます。利用者が開いたファイル自体は、利用者が選んだ元の場所にそのまま残ります。</p>
+
+<h3>本ポリシーの変更</h3>
+<p>本ポリシーの内容は、機能追加や運用方針の変更に応じて改定することがあります。重要な変更がある場合は、アプリの更新等を通じて周知します。</p>
+
+<h3>お問い合わせ</h3>
+<p>本ポリシーに関するお問い合わせ先:</p>
+<ul>
+<li>開発者: NeuralParadox（Kazuki Watanabe）</li>
+<li>連絡先: <a href="mailto:neuralparadox.app@gmail.com">neuralparadox.app@gmail.com</a></li>
+</ul>
+</body>
+</html>
