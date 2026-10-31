@@ -57,6 +57,23 @@
 </table>
 <p>The View menu also lets you switch between light, dark, and system theme, toggle line wrapping, and toggle hidden files. Vim mode can be enabled from the Edit menu. If a file you have open changes outside the App, you'll be asked to confirm before reloading it, and closing a tab or quitting the App with unsaved changes prompts a confirmation dialog.</p>
 
+<h3>Vim Mode Keys</h3>
+<p>Enable Vim mode from the Edit menu. The main operations are listed below (standard Vim behavior; the App defines no custom key bindings). Save with <code>⌘S</code>; saving or quitting through Ex commands such as <code>:w</code> or <code>:q</code> is not supported.</p>
+<table>
+<tr><th>Key</th><th>Action</th></tr>
+<tr><td><code>Esc</code> / <code>i</code> <code>a</code> <code>o</code></td><td>Return to Normal mode / enter Insert mode (at the cursor, after it, on a new line below)</td></tr>
+<tr><td><code>h</code> <code>j</code> <code>k</code> <code>l</code></td><td>Move left, down, up, right</td></tr>
+<tr><td><code>w</code> <code>b</code> <code>e</code></td><td>Move by word (next word start, previous word start, word end)</td></tr>
+<tr><td><code>0</code> <code>^</code> <code>$</code></td><td>Start of line, first non-blank character, end of line</td></tr>
+<tr><td><code>gg</code> / <code>G</code></td><td>Go to the start / end of the file</td></tr>
+<tr><td><code>x</code> / <code>dd</code> / <code>yy</code> / <code>p</code></td><td>Delete a character / delete a line / copy a line / paste</td></tr>
+<tr><td><code>d</code> <code>c</code> <code>y</code> + motion (e.g. <code>dw</code>, <code>c$</code>)</td><td>Delete, change, or copy the moved-over range</td></tr>
+<tr><td><code>v</code> / <code>V</code></td><td>Characterwise / linewise Visual selection</td></tr>
+<tr><td><code>/</code> + text → <code>n</code> / <code>N</code></td><td>Search forward → next / previous match</td></tr>
+<tr><td><code>u</code></td><td>Undo</td></tr>
+<tr><td><code>.</code></td><td>Repeat the last change</td></tr>
+</table>
+
 <h2>3. Contact / Support</h2>
 <p>For questions about using the App or to report a problem, please contact:</p>
 <ul>
